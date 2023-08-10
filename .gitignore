@@ -1,0 +1,13 @@
+.idea/
+.DS_Store
+build/
+target/
+*.iml
+lib/
+packer/variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.terraform.lock.hcl
