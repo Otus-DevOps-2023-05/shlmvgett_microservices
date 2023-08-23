@@ -1,8 +1,6 @@
-FROM ruby:latest
+FROM ruby:2.4
 
-RUN apt-get update -qq
-RUN apt-get install -y build-essential
-RUN gem install bundler -v 2.3.26
+RUN apt-get update -qq && apt-get install -y build-essential
 
 
 ENV APP_HOME /app
